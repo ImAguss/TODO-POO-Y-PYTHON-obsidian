@@ -1,5 +1,8 @@
 # POO y Python
 
+## Como Usarlo
+
+Una vez que tengas instalado obsidian dale a la opcion que dice "Abrir carpeta como vault" y selecciona la carpeta del repositorio. Automaticamente se te instalara todo.
 ## Convenciones de Enlaces
 
 Este Proyecto distingue entre dos tipos de conexiones:
