@@ -2,27 +2,6 @@
 
 Un sistema de gestión de conocimiento personal usando el método Zettelkasten, enfocado principalmente en **Python**, **Programación Orientada a Objetos** y **desarrollo de software**.
 
-## Estructura del Zettelkasten
-
-```
-ZettelKasten/
-├── Nodos Padres/          # Notas que derivan en otras notas
-├── Nodos Hoja/            # Notas finales (no derivan)
-├── Mapas de Contenido/    # Índices y navegación
-├── Templates/             # Plantillas para nuevas notas
-├── Imagenes/              # Assets visuales
-├── Mazos/                 # Flashcards para repetición espaciada
-└── Notas No Terminadas o Borradores/
-```
-
-### Tipos de Notas
-
-| Tipo | Descripción |
-|------|-------------|
-| **Nodos Padres** | Notas que generan o derivan en otras notas. Son puntos de partida que se desarrollan en temas más específicos. |
-| **Nodos Hoja** | Notas que no derivan en otras. Son los puntos finales de las cadenas de derivación. |
-| **Mapas de Contenido** | Notas índice que proporcionan navegación de alto nivel entre temas. |
-
 ## Convenciones de Enlaces
 
 Este Zettelkasten distingue entre dos tipos de conexiones:
@@ -152,12 +131,6 @@ __TE SIENTES DETERMINADO__
 - Pilas y colas
 - Recursión
 - Algoritmos de ordenamiento
-
-### Otros Temas
-
-- Linux y sistemas
-- Ciberseguridad
-- Redes y conectividad
 
 ## Filosofía
 
