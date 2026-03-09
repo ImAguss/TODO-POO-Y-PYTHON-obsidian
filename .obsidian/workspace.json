@@ -1,0 +1,278 @@
+{
+  "main": {
+    "id": "347cd93e70201661",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9fcf4655a4cac16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ba2827f1cfbe8b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nodos Hoja/Listas en Python.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Listas en Python"
+            }
+          },
+          {
+            "id": "cb75b95f1e75deb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nodos Padres/Variables y Tipos de datos en Python.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variables y Tipos de datos en Python"
+            }
+          },
+          {
+            "id": "5c84fa27f2a5cfc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nodos Hoja/Programacion Orientada a Objetos.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programacion Orientada a Objetos"
+            }
+          },
+          {
+            "id": "85b800011b4b9f9c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16c67d0d9742a441",
+    "type": "split",
+    "children": [
+      {
+        "id": "af4f3c1f10650ef3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98b1e264a7c4abad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "73891a30fdc74371",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(sugerencia de tipo)",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "b11e7a35e3921c2a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7538fed9ce81a952",
+    "type": "split",
+    "children": [
+      {
+        "id": "5470dfc65b327757",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4975295edb4d8d22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Todo POO y python/Como funciona la encapsulacion en python.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Como funciona la encapsulacion en python"
+            }
+          },
+          {
+            "id": "374f23395928bac3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Todo POO y python/Como funciona la encapsulacion en python.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Como funciona la encapsulacion en python"
+            }
+          },
+          {
+            "id": "70fd5c2c36a89bf3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "923db80c35b5a910",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "9531da18e15c0ac7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux historia.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Linux historia"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 696.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "flashcards-obsidian:Generate flashcards": false
+    }
+  },
+  "active": "85b800011b4b9f9c",
+  "lastOpenFiles": [
+    "Diccionarios en Python.md",
+    "Todo POO y python/Iteradores.md",
+    "Encapsulación en Python.md",
+    "Todo POO y python/Lenguaje de Programación Python.md",
+    "Todo POO y python/Estructuras de Datos y Algoritmos.md",
+    "Nodos Hoja/Relaciones entre Clases en Python.md",
+    "Todo POO y python/Programacion Orientada a Objetos en Python.md",
+    "Todo POO y python/Modulos.md",
+    "Todo POO y python/Métodos en Python.md",
+    "Todo POO y python/Variables y Tipos de datos en Python.md",
+    "Todo POO y python/Funciones en Python.md",
+    "Todo POO y python/Aprendiendo lo Basico de Python.md",
+    "Todo POO y python/Arrays.md",
+    "Todo POO y python/Listas Enlazadas.md",
+    "Todo POO y python/Tablas Hash.md",
+    "Todo POO y python/Pilas y Colas.md",
+    "Todo POO y python/Recursion.md",
+    "Todo POO y python/Decoradores.md",
+    "Todo POO y python/Lambdas.md",
+    "Todo POO y python/Programacion Orientada a Objetos.md",
+    "Todo POO y python/Métodos mágicos en python.md",
+    "Todo POO y python/Como python maneja la memoria.md",
+    "Todo POO y python/Como funciona la encapsulacion en python.md",
+    "Todo POO y python/Relaciones entre Clases en Python.md",
+    "Todo POO y python/Testing con unittest en Python.md",
+    "Todo POO y python/Clases Base Abstractas en Python.md",
+    "Todo POO y python",
+    "Notas No Terminadas o Borradores/Lenguaje de Programación Python.md.tmp.1475.1773079512507",
+    "Nodos Padres/Programacion Orientada a Objetos en Python.md.tmp.1475.1773079438877",
+    "Nodos Hoja/Testing con unittest en Python.md.tmp.1475.1773079387355",
+    "Nodos Hoja/Clases Base Abstractas en Python.md.tmp.1475.1773079177259",
+    "Notas No Terminadas o Borradores/Lenguaje de Programación Python.md.tmp.1475.1773078568513",
+    "Nodos Padres/Programacion Orientada a Objetos en Python.md.tmp.1475.1773078530369",
+    "Nodos Hoja/Relaciones entre Clases en Python.md.tmp.1475.1773078451258",
+    "Unidad-3/PDFs/Unidad 3_2025.pdf",
+    "CLAUDE.md.tmp.2384.1773065932238",
+    "Imagenes/2026-02-16_12-38-35.png",
+    "Imagenes/tkinter_lambda.be4b6259769e.gif",
+    "Imagenes/jsturtz-factorial-example.496c01139673.png",
+    "Imagenes/2026-02-07_07-26-52.png",
+    "Imagenes/2026-02-07_07-20-45.png",
+    "Imagenes/2026-02-07_07-11-30.png",
+    "Imagenes/2026-02-06_19-45-47.png",
+    "Imagenes/2026-02-06_19-20-34.png",
+    "Imagenes/2026-02-06_08-48-00.png",
+    "Imagenes/2026-02-06_08-45-03.png",
+    "Sin título.canvas"
+  ]
+}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block titulo %}Entrada{% endblock %}
+
+{% block encabezado %}Registrar Entrada{% endblock %}
+
+{% block contenido %}
+<form method="POST">
+    
+    <label for="legajo">Número de Legajo:</label>
+    <input type="text" name="legajo" required>
+
+    <label for="dni_ultimos4">Últimos 4 dígitos del DNI:</label>
+    <input type="text" name="dni_ultimos4" id="dni_ultimos4" maxlength="4" required><br><br>
+
+    <label for="dependencia">Dependencia:</label>
+    <select name="dependencia">
+        <option value="D01">Edificio Central-D01</option>
+        <option value="D02">Talleres-D02</option>
+        <option value="D03">Centro Deportivo-D03</option>
+    </select>
+
+    <input type="submit" value="Registrar Entrada">
+</form>
+{% endblock %}

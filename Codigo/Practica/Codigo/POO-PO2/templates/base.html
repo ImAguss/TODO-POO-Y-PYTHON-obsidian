@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titulo %}institulo Nuevo Horizonte{% endblock %}</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        header { background-color: #0056b3; color: white; padding: 10px; }
+        main { margin-top: 20px; }
+        .btn { padding: 8px 12px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>{% block encabezado %}Base HTML{% endblock %}</h1>
+    </header>
+
+    <main>
+        {% block contenido %}{% endblock %}
+    </main>
+    <br><br><a href = "{{ url_for('inicio') }}" > Inicio </a><br><br>
+</body>
+</html>
+

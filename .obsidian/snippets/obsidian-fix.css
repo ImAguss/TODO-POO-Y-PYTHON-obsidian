@@ -1,0 +1,107 @@
+/* * Tema Personalizado para Obsidian (Versión Extendida)
+ * Paleta oscura base con fuerte integración de tonos cálidos y fríos.
+ */
+
+.theme-dark, body {
+    /* -----------------------------------------
+       1. FONDOS Y BORDES (Base oscura y púrpura)
+       ----------------------------------------- */
+    --background-primary: #1f1a24;        /* $bg0 */
+    --background-primary-alt: #2a2232;    /* $bg1 */
+    --background-secondary: #2a2232;      /* $bg1 */
+    --background-secondary-alt: #1f1a24;  /* $bg0 */
+    
+    --background-modifier-hover: rgba(74, 58, 87, 0.3);   /* $bg2 */
+    --background-modifier-border: #4a3a57;                /* $bg2 */
+    --background-modifier-border-hover: #e69d25;          /* $orange0 - Borde naranja al pasar el mouse */
+    --background-modifier-border-focus: #e23e64;          /* $red0 - Borde rojo al hacer foco */
+    --text-selection: rgba(226, 62, 100, 0.25);           /* $red0 - Selección de texto rojiza */
+
+    /* -----------------------------------------
+       2. TEXTOS GENERALES E INTERFAZ
+       ----------------------------------------- */
+    --text-normal: #e6e1eb;               /* $fg0 */
+    --text-muted: #a0a0a2;                /* $fg1 */
+    
+    /* Pestañas activas con toque cálido */
+    --tab-text-color-focused-active: #f2d16b; /* $yellow0 */
+    --tab-text-color-focused-active-current: #f2d16b;
+    --interactive-accent: #b58ac6;        /* $purple2 - Botones base */
+    --interactive-accent-hover: #e23e64;  /* $red0 - Botones al pasar el mouse */
+
+    /* -----------------------------------------
+       3. ENLACES Y TÍTULOS (Mix frío/cálido)
+       ----------------------------------------- */
+    --text-accent: #5fafd7;               /* $blue0 - Enlaces */
+    --text-accent-hover: #4fb3a5;         /* $cyan0 - Enlaces hover */
+    --text-a: #5fafd7;
+    --text-a-hover: #4fb3a5;
+
+    /* Títulos en cascada de cálidos a fríos */
+    --h1-color: #e23e64;                  /* $red0 */
+    --h2-color: #e69d25;                  /* $orange0 */
+    --h3-color: #f2d16b;                  /* $yellow0 */
+    --h4-color: #4fb3a5;                  /* $cyan0 */
+    --h5-color: #5fafd7;                  /* $blue0 */
+    --h6-color: #b58ac6;                  /* $purple2 */
+
+    /* -----------------------------------------
+       4. ELEMENTOS MARKDOWN Y FORMATO
+       ----------------------------------------- */
+    --list-bullet-color: #e69d25;         /* $orange0 - Viñetas de las listas */
+    --checkbox-color: #e23e64;            /* $red0 - Checkboxes completados */
+    --checkbox-color-hover: #e69d25;      /* $orange0 */
+    
+    --blockquote-border-color: #e69d25;   /* $orange0 - Línea de la cita */
+    --blockquote-background-color: rgba(42, 34, 50, 0.5); /* $bg1 */
+    
+    --tag-color: #1f1a24;                 /* $bg0 */
+    --tag-background: #4fb3a5;            /* $cyan0 - Etiquetas base */
+    --tag-background-hover: #f2d16b;      /* $yellow0 - Etiquetas al pasar el mouse */
+    
+    --text-highlight-bg: rgba(242, 209, 107, 0.35); /* $yellow0 - Resaltado (==texto==) */
+
+    /* -----------------------------------------
+       5. GRAPH VIEW (Nodos coloridos)
+       ----------------------------------------- */
+    --graph-text: #e6e1eb;             /* $fg0 */
+    --graph-line: #4a3a57;             /* $bg2 - Líneas de conexión */
+    --graph-node: #b58ac6;             /* $purple2 - Nodos normales */
+    --graph-node-unresolved: #a0a0a2;  /* $fg1 - Nodos vacíos */
+    --graph-node-focused: #e23e64;     /* $red0 - Nodo seleccionado */
+    --graph-node-tag: #4fb3a5;         /* $cyan0 - Nodos de etiquetas */
+    --graph-node-attachment: #f2d16b;  /* $yellow0 - Nodos de imágenes/archivos */
+}
+
+/* -----------------------------------------
+   6. ESTILOS ESPECÍFICOS DE TEXTO (Negrita/Cursiva)
+   ----------------------------------------- */
+/* Negritas en Naranja para que resalten mucho en el texto */
+strong { 
+    color: #e69d25; /* $orange0 */
+    font-weight: 800;
+}
+
+/* Cursivas en Amarillo para darles un toque brillante */
+em { 
+    color: #f2d16b; /* $yellow0 */
+}
+
+/* -----------------------------------------
+   7. BLOQUES DE CÓDIGO (Syntax Highlighting)
+   ----------------------------------------- */
+/* Fondo general de código */
+.theme-dark {
+    --code-background: #1f1a24;           /* $bg0 */
+    --inline-code-color: #e23e64;         /* $red0 */
+    --inline-code-background: rgba(74, 58, 87, 0.4); /* $bg2 con transparencia */
+}
+
+/* Colores internos para cuando escribís código (JS, Python, CSS, etc.) */
+.cm-s-obsidian span.cm-keyword, .token.keyword { color: #e23e64 !important; }  /* $red0 - Palabras clave */
+.cm-s-obsidian span.cm-string, .token.string { color: #f2d16b !important; }    /* $yellow0 - Textos/Strings */
+.cm-s-obsidian span.cm-number, .token.number { color: #e69d25 !important; }    /* $orange0 - Números */
+.cm-s-obsidian span.cm-def, .token.function { color: #5fafd7 !important; }     /* $blue0 - Funciones */
+.cm-s-obsidian span.cm-property, .token.property { color: #4fb3a5 !important;} /* $cyan0 - Propiedades */
+.cm-s-obsidian span.cm-comment, .token.comment { color: #a0a0a2 !important; font-style: italic; } /* $fg1 - Comentarios */
+.cm-s-obsidian span.cm-operator, .token.operator { color: #b58ac6 !important;} /* $purple2 - Operadores (=, +, -) */

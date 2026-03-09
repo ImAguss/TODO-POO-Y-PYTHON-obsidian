@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido al sistema de control horario</h1>
+
+    <a href="{{ url_for('entrada') }}" class="boton">Registrar Entrada</a>
+    <a href="{{ url_for('salida') }}" class="boton">Registrar Salida</a>
+    <a href="{{ url_for('consulta') }}" class="boton">Consultar Registros</a>
+    <a href="{{ url_for('informe') }}" class="boton">Generar Informe</a>
+    <a href="{{ url_for('ver_todo') }}" class="boton">Ver Trabajadores</a>
+</body>
+</html>

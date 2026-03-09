@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block titulo %}Ver Todo{% endblock %}
+
+{% block encabezado %}Trabajadores y sus Registros{% endblock %}
+
+{% block contenido %}
+    {% if trabajadores %}
+        <ul>
+        {% for t in trabajadores %}
+            <li>
+                <strong>{{ t.nombre }} {{ t.apellido }} | Legajo: {{ t.legajo }} | Funcion: {{t.funcion}}</strong>
+                <ul>
+                    {% if t.registros_horarios %}
+                        {% for r in t.registros_horarios %}
+                            <li>
+                                Fecha: {{ r.fecha }} |
+                                Entrada: {{ r.horaentrada.strftime("%H:%M") }} |
+                                Salida: {{ r.horasalida.strftime("%H:%M") if r.horasalida else 'Sin salida' }} |
+                                Dependencia: {{ r.dependencia }}
+                            </li>
+                        {% endfor %}
+                    {% else %}
+                        <li>Sin registros</li>
+                    {% endif %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No hay trabajadores cargados.</p>
+    {% endif %}
+{% endblock %}

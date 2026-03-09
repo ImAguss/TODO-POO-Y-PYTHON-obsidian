@@ -1,0 +1,16 @@
+{
+  "cssTheme": "",
+  "textFontFamily": "CaskaydiaMono Nerd Font",
+  "interfaceFontFamily": "CaskaydiaMono Nerd Font",
+  "monospaceFontFamily": "CaskaydiaMono Nerd Font",
+  "showViewHeader": false,
+  "showRibbon": true,
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 17,
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "obsidian-fix"
+  ],
+  "baseFontSizeAction": true
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block titulo %}Salida{% endblock %}
+
+{% block encabezado %}Registrar salida{% endblock %}
+
+{% block contenido %}
+<form method="POST">
+    
+    <label for="legajo">Número de Legajo:</label>
+    <input type="text" name="legajo" required>
+
+    <label for="dni_ultimos4">Últimos 4 dígitos del DNI:</label>
+    <input type="text" name="dni_ultimos4" id="dni_ultimos4" maxlength="4" required><br><br>
+
+    <input type="submit" value="Registrar salida">
+</form>
+{% endblock %}

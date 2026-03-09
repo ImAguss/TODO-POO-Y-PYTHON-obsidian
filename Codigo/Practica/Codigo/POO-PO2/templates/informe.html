@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Informe{% endblock %}
+
+{% block encabezado %}Informe de Registros{% endblock %}
+
+{% block contenido %}
+    <form method="POST">
+        <label for="legajo">Legajo de administrador:</label>
+        <input type="text" name="legajo" id="legajo" required>
+
+        <label for="dni_ultimos4">Últimos 4 dígitos del DNI:</label>
+        <input type="text" name="dni_ultimos4" id="dni_ultimos4" maxlength="4" required>
+
+        <label for="fecha_desde">Desde (aaaa-mm-dd):</label>
+        <input type="date" name="fecha_desde" required>
+
+        <label for="fecha_hasta">Hasta (aaaa-mm-dd):</label>
+        <input type="date" name="fecha_hasta" required>
+
+        <label for="funcion">Rol:</label>
+        <select name="funcion">
+            <option value="Todos">-- Todos --</option>
+            <option value="AD">Administrador</option>
+            <option value="DO">Docente</option>
+            <option value="TE">Tecnico</option>
+        </select>
+
+        <label for="dependencia">Dependencia:</label>
+        <select name="dependencia">
+            <option value="Todos">-- Todos --</option>
+            <option value="D01">Edificio Central D01</option>
+            <option value="D02">Talleres D02</option>
+            <option value="D03">Centro Deportivo D03</option>
+        </select>
+
+        <button type="submit">Generar informe</button>
+    </form>
+
+    {% if resultados %}
+        <h3>Resultados del Informe</h3>
+        <table border="0.5">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Fecha</th>
+                    <th>Hora Entrada</th>
+                    <th>Hora Salida</th>
+                    <th>Dependencia</th>
+                    <th>Rol</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for registro, trabajador in resultados %}
+                <tr>
+                    <td>{{ trabajador.nombre }}</td>
+                    <td>{{ trabajador.apellido }}</td>
+                    <td>{{ registro.fecha }}</td>
+                    <td>{{ registro.horaentrada.strftime("%H:%M") }}</td>
+                    <td>{{ registro.horasalida.strftime("%H:%M") if registro.horasalida else 'Sin salida' }}</td>
+                    <td>{{ registro.dependencia }}</td>
+                    <td>{{ trabajador.funcion }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block titulo %}Consulta{% endblock %}
+
+{% block encabezado %}Realizar Consulta{% endblock %}
+
+{% block contenido %}
+<form method="POST">
+
+    <form method="POST" action="/consulta">
+        <label for="legajo">Número de Legajo:</label>
+        <input type="text" id="legajo" name="legajo" required>
+
+        <label for="dni_ultimos4">Últimos 4 dígitos del DNI:</label>
+        <input type="text" id="dni_ultimos4" name="dni_ultimos4" required maxlength="4">
+
+        <label for="fecha_desde">Desde (aaaa-mm-dd):</label>
+        <input type="date" id="fecha_desde" name="fecha_desde" required>
+
+        <label for="fecha_hasta">Hasta (aaaa-mm-dd):</label>
+        <input type="date" id="fecha_hasta" name="fecha_hasta" required>
+
+        <input type="submit" value="Consultar">
+    </form>
+
+    {% if registros is not none %}
+        {% if registros %}
+            <h3>Registros de {{ trabajador.nombre }} {{ trabajador.apellido }}</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora de Entrada</th>
+                        <th>Hora de Salida</th>
+                        <th>Dependencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in registros %}
+                    <tr>
+                        <td>{{ r.fecha }}</td>
+                        <td>{{ r.horaentrada.strftime("%H:%M") }}</td>
+                        <td>{{ r.horasalida.strftime("%H:%M") if r.horasalida else 'Sin salida' }}</td>
+                        <td>{{ r.dependencia }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No se encontraron registros para los datos ingresados.</p>
+        {% endif %}
+    {% endif %}
+</form>
+{% endblock %}

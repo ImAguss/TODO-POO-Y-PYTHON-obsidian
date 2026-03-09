@@ -1,0 +1,41 @@
+id;Nombre;Titulo;Duracion;Nivel;Id-Facultad
+1;BioIngenieria;Bioingeniero;Once Semestres;Grado;1
+2;Ingenieria Electronica;Ingeniero en Electronica;Once Semestres;Grado;1
+3;Ingenieria Electrica;Ingeniero Electrico;Diez Semestres;Grado;1
+4;Ingenieria en Agrimensura;Ingeniero Agrimensor;Diez Semestres;Grado;1
+5;Ingenieria Electromecanica;Ingeniero Electromecanico;Once Semestres;Grado;1
+6;Ingenieria Industrial;Ingeniero Industrial;Diez Semestres;Grado;1
+7;Ingenieria Mecanica;Ingeniero Mecanico;Once Semestres;Grado;1
+8;Ingenieria Civil;Ingeniero Civil;Diez Semestres;Grado;1
+9;Ingenieria en Minas;Ingeniero en Minas;Diez Semestres;Grado;1
+10;Ingenieria en Metalurgica Extractiva;Ingeniero Metalurgista;Diez Semestres;Grado;1
+11;Ingenieria en Alimentos;Ingeniero en Alimentos;Diez Semestres;Grado;1
+12;Ingenieria en Agronomica;Ingeniero Agronomo;Diez Semestres;Grado;1
+13;Licenciatura en Biologia Orientacion Ecologia;Licenciado en Biologia Or. Ecologia;5 anios + Trabajo final;Grado;3
+14;Licenciatura en Astronomia;Licenciado en Astronomia;5 anios + Trabajo final;Grado;3
+15;Licenciatura en Geofisica;Licenciado en Geofisica;5 anios + Trabajo final;Grado;3
+16;Licenciatura en Ciencias Geologicas;Licenciado en Ciencias Geologicas;5 anios + Trabajo final;Grado;3
+17;Licenciatura en Ciencias de la Computacion;Licenciado en Ciencias de la Computacion;5 anios + Trabajo final;Grado;3
+18;Licenciatura en Sistemas de Informacion;Licenciado en Sistemas de Informacion;5 anios + Trabajo final;Grado;3
+19;Profesorado de Fisica;Profesor de Fisica;4 anios;Grado;5
+20;Profesorado de Quimica;Profesor de Quimica;4 anios;Grado;5
+21;Profesorado de Tecnologia;Profesor de Tecnologia;4 anios;Grado;5
+22;Licenciatura en Matematica;Licenciado en Matematica;5 anios;Grado;5
+23;Profesorado en Matematica;Profesor de Matematica;4 anios;Grado;5
+24;Licenciatura en Letras;Licenciado en Letras;5 anios;Grado;5
+25;Profesorado de Teatro;Profesor de Teatro;4 anios;Grado;5
+26;Profesorado de Letras;Profesor de Letras;5 anios;Grado;5
+27;Licenciatura en Ingles;Licenciado en Ingles;5 anios;Grado;5
+28;Profesorado de Ingles;Profesor de Ingles;5 anios;Grado;5
+29;Licenciatura en Historia;Licenciado en Historia;5 anios;Grado;5
+30;Profesorado de Historia;Profesor de Historia;5 anios;Grado;5
+31;Licenciatura en Ciencias de la Educacion;Licenciado en Ciencias de la Educacion;5 anios;Grado;5
+32;Licenciatura en Filosofia;Licenciado en Filosofia;5 anios;Grado;5
+33;Profesorado en Ciencias de la Educacion;Profesor en Ciencias de la Educacion;5 anios;Grado;5
+34;Profesorado en Filosofia;Profesor en Filosofia;5 anios;Grado;5
+35;Licenciatura en Geografia;Licenciado en Geografia;5 anios;Grado;5
+36;Profesorado de Geografia;Profesor de Geografia;5 anios;Grado;5
+37;Licenciatura en Educacion Musical;Licenciado en Educacion Musical;5 anios;Grado;5
+38;Profesorado Universitario de Musica;Profesor Universitario de Musica;5 anios;Grado;5
+39;Profesorado Universitario en Educacion Musical;Profesor Universitario en Educacion Musical;4 anios;Grado;5
+40;Licenciatura en Artes Visuales;Licenciado en Artes Visuales;5 anios;Grado;5

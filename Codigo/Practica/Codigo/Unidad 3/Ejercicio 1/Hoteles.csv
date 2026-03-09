@@ -1,0 +1,15 @@
+Hotel Paraíso Tropical;Avenida Costera 1234;0341698631
+101;1;sencilla;5000;True
+102;1;sencilla;5000;True
+201;2;doble;8000;True
+202;2;doble;8000;False
+301;3;suite;12000;True
+303;3;suite;13000;True
+304;3;doble;7500;True
+401;4;sencilla;5100;False
+402;4;suite;13500;True
+Hotel Central;Avenidad Ignacio de la Roza 123;2644200584
+101;1;sencilla;5000;False
+202;2;doble;8000;True
+301;3;suite;12000;True
+402;4;suite;13500;False
