@@ -1,10 +1,8 @@
-# Zettelkasten - Notas de Aprendizaje
-
-Un sistema de gestión de conocimiento personal usando el método Zettelkasten, enfocado principalmente en **Python**, **Programación Orientada a Objetos** y **desarrollo de software**.
+# POO y Python
 
 ## Convenciones de Enlaces
 
-Este Zettelkasten distingue entre dos tipos de conexiones:
+Este Proyecto distingue entre dos tipos de conexiones:
 
 ### Derivación `[[Nota]]`
 
@@ -134,7 +132,7 @@ __TE SIENTES DETERMINADO__
 
 ## Filosofía
 
-Este Zettelkasten sigue el principio de **atomicidad**: cada nota contiene una idea principal clara y concisa. Las conexiones entre notas crean una red de conocimiento que facilita el descubrimiento de relaciones inesperadas y la síntesis de nuevas ideas.
+Este proyecto sigue el principio de **atomicidad**: cada nota contiene una idea principal clara y concisa. Las conexiones entre notas crean una red de conocimiento que facilita el descubrimiento de relaciones inesperadas y la síntesis de nuevas ideas.
 
 ---
 
